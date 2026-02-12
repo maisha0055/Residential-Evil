@@ -17,4 +17,3 @@ The game was developed using Python to implement the core gameplay logic. Used G
 - Defeat mannequins ghosts to progress through the level and unlock the door.
 - Each level grows more difficult, and the game can be restarted using R.
 
-Working on this project strengthened my skills in understanding 3D graphics programming with Python and OpenGL. I also learned to manage complex game states, object interactions, and performance optimizations while maintaining a playable and interactive environment. This project improved my problem-solving skills, algorithmic thinking, and attention to visual detail.
