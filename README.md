@@ -12,17 +12,17 @@ The game was developed using Python to implement the core gameplay logic. Used G
 
 ## 📌**Core Gameplay Highlights**
 
--   **The home menu shows basic controls and gameplay instructions.
--   **A flashlight that freezes the ghosts can be toggled on and off for safety of the player using the "F" key.
--   **The player shoots a bullet using the Space bar.
--   **Colliding with a ghost costs the player one life.
--   **Health packs are placed randomly in corridors to restore health.
--   **Mannequin ghosts spawn randomly and increase in speed and damage over time.
--   **Safe zones make the player invisible and immune to attacks.
--   **Camera flickers and the screen flashes red when taking damage.
--   **First-person/third-person toggle with smooth interpolation using the "E" key.
--   **Defeat mannequins ghosts to progress through the level and unlock the door.
--   **Each level grows more difficult, and the game can be restarted using R.
+-   The home menu shows basic controls and gameplay instructions.
+-   A flashlight that freezes the ghosts can be toggled on and off for safety of the player using the "F" key.
+-   The player shoots a bullet using the Space bar.
+-   Colliding with a ghost costs the player one life.
+-   Health packs are placed randomly in corridors to restore health.
+-   Mannequin ghosts spawn randomly and increase in speed and damage over time.
+-   Safe zones make the player invisible and immune to attacks.
+-   Camera flickers and the screen flashes red when taking damage.
+-   First-person/third-person toggle with smooth interpolation using the "E" key.
+-   Defeat mannequins ghosts to progress through the level and unlock the door.
+-   Each level grows more difficult, and the game can be restarted using R.
 
 ---
 
