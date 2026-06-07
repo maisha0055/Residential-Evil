@@ -1,4 +1,4 @@
-# Mono:  Residential Evil — A 3D Horror Survival Experience
+# Mono:  Residential Evil — A 3D Horror Survival Experience 
 
 **Residential Evil** is a 3D survival horror game built with Python and PyOpenGL. Take control of **Mono**blends atmospheric storytelling with real-time combat mechanics while trapped in a dark, abandoned house, the player must survive against restless ghosts that grow stronger over time, using ammo, a safety flashlight, and stamina-based sprinting. The player defeats mannequin ghosts to unlock a door and ultimately rescue the player’s lost beloved while surviving a tense, fear-filled environment. Your mission: survive the escalating terror, find the "door of longing," and rescue a trapped soul.
 
