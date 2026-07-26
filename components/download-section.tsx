@@ -1,4 +1,4 @@
-import { Download } from "lucide-react"
+import { Download, Play } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function DownloadSection() {
@@ -19,20 +19,36 @@ export function DownloadSection() {
         <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
           Face the darkness. Explore the unknown. Try not to look away.
         </p>
-        <Button
-          asChild
-          size="lg"
-          className="mt-10 gap-3 rounded-none border border-primary bg-primary/10 px-12 py-7 text-base font-semibold uppercase tracking-widest text-primary transition-all hover:bg-primary hover:text-primary-foreground"
-        >
-          <a
-            href="https://drive.google.com/drive/u/1/folders/1ci-MVtgJsemNscO6iAebAVVDQIFpFGRD"
-            target="_blank"
-            rel="noopener noreferrer"
+        <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <Button
+            asChild
+            size="lg"
+            className="gap-3 rounded-none border border-primary bg-primary/10 px-12 py-7 text-base font-semibold uppercase tracking-widest text-primary transition-all hover:bg-primary hover:text-primary-foreground"
           >
-            <Download className="h-5 w-5" />
-            Download
-          </a>
-        </Button>
+            <a
+              href="https://drive.google.com/file/d/1jAdApBwMy40bjd7zf8IGDP8VQp7ca7b6/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Download className="h-5 w-5" />
+              Download
+            </a>
+          </Button>
+          <Button
+            asChild
+            size="lg"
+            className="gap-3 rounded-none border border-primary/50 bg-transparent px-12 py-7 text-base font-semibold uppercase tracking-widest text-primary transition-all hover:bg-primary/20 hover:border-primary"
+          >
+            <a
+              href="https://drive.google.com/file/d/19_qE766Ah0q06gMmPCfeAHiqu9_7PndP/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Play className="h-5 w-5" />
+              Demo Video
+            </a>
+          </Button>
+        </div>
       </div>
     </section>
   )
